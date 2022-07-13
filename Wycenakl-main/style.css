@@ -474,12 +474,10 @@ ul li::marker {
 }
 
 .popUpMenuText {
-  position: fixed;
-  top: 0px;
-  left: 0px;
+  position: relative;
 
-  margin-top: 100px;
-  height: 40%;
+  margin-top: -60px;
+  height: 100%;
   width: 100%;
   pointer-events: none;
   text-transform: capitalize;
@@ -487,7 +485,7 @@ ul li::marker {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background: transparent; */
+  /* background: red; */
 }
 
 .popUpMenu a {
@@ -557,7 +555,6 @@ ul li::marker {
 }
 
 .burger.open .menuBtnBurger {
-  /* transform:translateX(-50px); */
   background: transparent;
 }
 
@@ -629,10 +626,12 @@ ul li::marker {
   .nav-links {
     display: none;
   }
-
   .popUpMenuText {
-    top: 4%;
-    left: -3%;
+    margin-top: 0px;
+  }
+
+  .popUpMenu a {
+    font-size: 2.5rem;
   }
 
   .tele p,
@@ -646,13 +645,12 @@ ul li::marker {
   .nav-links {
     display: none;
   }
-  .popUpMenu a {
-    font-size: 4rem;
+  .popUpMenuText {
+    margin-top: 0px;
   }
 
-  .popUpMenuText {
-    top: -8%;
-    left: -1%;
+  .popUpMenu a {
+    font-size: 2.5rem;
   }
 
   .tele p,
@@ -667,10 +665,10 @@ ul li::marker {
     display: none;
   }
 
-  .popUpMenuText {
-    top: -5%;
-    left: -5%;
+  .popUpMenu a {
+    font-size: 2.3rem;
   }
+
   .okladkaTxt {
     font-size: 3rem;
   }
@@ -697,11 +695,14 @@ ul li::marker {
   .nav-links {
     display: none;
   }
-
   .popUpMenuText {
-    top: -8%;
-    left: -5%;
+    margin-top: -20px;
   }
+
+  .popUpMenu a {
+    font-size: 2.3rem;
+  }
+
   .rzeczoznawcaTxt {
     bottom: 50vh;
   }
@@ -728,11 +729,14 @@ ul li::marker {
   .nav-links {
     display: none;
   }
-
   .popUpMenuText {
-    top: -9%;
-    left: -1%;
+    margin-top: -30px;
   }
+
+  .popUpMenu a {
+    font-size: 2.3rem;
+  }
+
   .okladkaTxt {
     font-size: 2.5rem;
   }
@@ -743,9 +747,7 @@ ul li::marker {
     min-width: 250px;
     min-height: 250px;
   }
-  .popUpMenu a {
-    font-size: 2.5rem;
-  }
+
   .ofertaCont {
     width: 400px;
   }
@@ -770,22 +772,22 @@ ul li::marker {
   .nav-links {
     display: none;
   }
+  .popUpMenuText {
+    margin-top: -50px;
+  }
+  .popUpMenu a {
+    font-size: 1.8rem;
+  }
   .okladkaTxt {
     font-size: 2.5rem;
   }
   .obroc {
     font-size: 2rem;
   }
-  .popUpMenuText {
-    top: -9%;
-    left: -1%;
-  }
+
   .firmaImg {
     min-width: 250px;
     min-height: 250px;
-  }
-  .popUpMenu a {
-    font-size: 2rem;
   }
 
   .rzeczoznawcaTxt {
@@ -820,12 +822,11 @@ ul li::marker {
   .nav-links {
     display: none;
   }
-  .popUpMenu a {
-    font-size: 2rem;
-  }
   .popUpMenuText {
-    top: -8%;
-    left: -1%;
+    margin-top: -70px;
+  }
+  .popUpMenu a {
+    font-size: 1.5rem;
   }
 
   .okladkaTxt {
@@ -871,14 +872,13 @@ ul li::marker {
   .nav-links {
     display: none;
   }
-
   .popUpMenuText {
-    top: -9%;
-    left: -1%;
+    margin-top: -70px;
   }
   .popUpMenu a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
+
   .ofertaCont {
     height: 400px;
     width: 250px;
@@ -919,13 +919,6 @@ ul li::marker {
     display: none;
   }
 
-  .popUpMenuText {
-    top: -9%;
-    left: -1%;
-  }
-  .popUpMenu a {
-    font-size: 1.8rem;
-  }
   .ofertaCont {
     height: 400px;
     width: 250px;
